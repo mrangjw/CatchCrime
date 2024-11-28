@@ -9,7 +9,7 @@ const mockUsers = [
     id: 1,
     name: "김선응",
     percentage: "31%",
-    status: "실행중",
+    status: "성범죄",
     gender: "남",
     birthDate: "1994년생 5월 24일",
     age: "32",
