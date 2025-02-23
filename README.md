@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# 🔍 범죄자 추적 및 관리 시스템 - 잡아범죄 (CatchCrime)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 프로젝트 소개
+전자발찌를 착용한 범죄자의 실시간 위치 추적과 이상 행동 감지, 신속한 대응 관리를 위한 종합적인 범죄자 추적 및 관리 시스템입니다.
+범죄 예방 및 재범률 감소, 법 집행 기관의 업무 효율성 향상, 공공 안전 강화를 목표로 합니다.
 
-## Available Scripts
+### 주요 기능
+- **실시간 위치 추적**: 전자발찌 GPS를 통한 정확한 실시간 위치 파악 및 모니터링
+- **이상 행동 감지**: 패턴 분석을 통한 이상 행동 자동 감지 및 경고 알림 발송
+- **신속 대응 관리**: 이상 상황 발생 시 즉각적인 출동 및 조치 지원
+- **범죄자 정보 관리**: 범죄자 신상 정보 및 범죄 이력의 체계적 관리
+- **공공 정보 공개**: 일반 시민을 위한 정보 공개 범위 설정 및 관리
 
-In the project directory, you can run:
+### 특징
+- 범죄자의 과거 행동 패턴과 현재 행동 비교 분석
+- 위치 기반 금지구역 설정 및 이탈 감지
+- 다양한 필터링 옵션을 통한 효율적인 모니터링
+- 법 집행 기관 간 원활한 정보 공유 시스템
+- 시민 안전 강화를 위한 정보 공개 관리
 
-### `npm start`
+## 기술 스택
+### Frontend
+- React
+- Tailwind CSS
+- JavaScript
+- Netlify
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Database
+- MySQL
+- ERD 설계
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Tools & Management
+- Git
+- GitHub
+- Figma
 
-### `npm test`
+## 데이터베이스 모델
+<img width="757" alt="스크린샷 2025-02-24 오전 5 48 34" src="https://github.com/user-attachments/assets/436d9041-c39f-4cb8-9b01-286bf6ce7aab" />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 화면 구성
+### 주요 화면
+1. 대시보드
+  - 실시간 위치 모니터링
+  - 이상 행동 알림 현황
+  - 담당 범죄자 요약 정보
+  
+2. 범죄자 관리
+  - 범죄자 프로필 조회
+  - 범죄 이력 관리
+  - 전자발찌 상태 확인
+  
+3. 이상 행동 분석
+  - 이상 행동 유형별 조회
+  - 패턴 분석 리포트
+  - 예측 알고리즘 설정
+  
+4. 대응 관리
+  - 출동 기록 관리
+  - 대응 지침 확인
+  - 결과 리포트 생성
